@@ -1,6 +1,6 @@
 {
   "name": "@tzcrolex/time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert Time Units",
   "main": "index.js",
   "scripts": {
