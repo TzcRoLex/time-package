@@ -1,4 +1,4 @@
-# Time Package
+# Time
 
 Convert Time Units To Milliseconds And Parse Milliseconds To Object
 
