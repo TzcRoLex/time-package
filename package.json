@@ -1,0 +1,22 @@
+{
+  "name": "time",
+  "version": "1.0.0",
+  "description": "Convert Time Units",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TzcRoLex/time-package.git"
+  },
+  "keywords": [
+    "TIME"
+  ],
+  "author": "TzcRoLex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TzcRoLex/time-package/issues"
+  },
+  "homepage": "https://github.com/TzcRoLex/time-package#readme"
+}
