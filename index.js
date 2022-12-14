@@ -1,5 +1,5 @@
 function parseMs(ms) {
-  if (typeof parseFloat(ms) !== "number") {
+  if (isNaN(parseInt(ms) / 2)) {
     throw new TypeError("The Type Of Parameter Must Be Number");
   }
 
@@ -17,63 +17,63 @@ function parseMs(ms) {
 }
 
 function nanosecondsToMs(ns) {
-  if (typeof parseFloat(ns) !== "number") {
+  if (isNaN(parseInt(ns) / 2)) {
     throw new TypeError("The Type Of Parameter Must Be Number");
   }
   return ns * 0.000001;
 }
 
 function microsecondsToMs(ms) {
-  if (typeof parseFloat(ms) !== "number") {
+  if (isNaN(parseInt(ms) / 2)) {
     throw new TypeError("The Type Of Parameter Must Be Number");
   }
   return ms * 0.001;
 }
 
 function secondsToMs(s) {
-  if (typeof parseFloat(s) !== "number") {
+  if (isNaN(parseInt(s) / 2)) {
     throw new TypeError("The Type Of Parameter Must Be Number");
   }
   return Math.trunc(s * 1e3);
 }
 
 function minutesToMs(m) {
-  if (typeof parseFloat(m) !== "number") {
+  if (isNaN(parseInt(m) / 2)) {
     throw new TypeError("The Type Of Parameter Must Be Number");
   }
   return Math.trunc(m * 6e4);
 }
 
 function hoursToMs(h) {
-  if (typeof parseFloat(h) !== "number") {
+  if (isNaN(parseInt(h) / 2)) {
     throw new TypeError("The Type Of Parameter Must Be Number");
   }
   return Math.trunc(h * 36e5);
 }
 
 function daysToMs(d) {
-  if (typeof parseFloat(d) !== "number") {
+  if (isNaN(parseInt(d) / 2)) {
     throw new TypeError("The Type Of Parameter Must Be Number");
   }
   return Math.trunc(d * 864e5);
 }
 
 function weeksToMs(w) {
-  if (typeof parseFloat(w) !== "number") {
+  if (isNaN(parseInt(w) / 2)) {
     throw new TypeError("The Type Of Parameter Must Be Number");
   }
   return Math.trunc(w * 604800016.56);
 }
 
 function monthsToMs(m) {
-  if (typeof parseFloat(m) !== "number") {
+  if (isNaN(parseInt(m) / 2)) {
     throw new TypeError("The Type Of Parameter Must Be Number");
   }
   return Math.trunc(m * 26298e5);
 }
 
 function yearsToMs(y) {
-  if (typeof parseFloat(y) !== "number") {
+  if (isNaN(parseInt(y) / 2)) {
     throw new TypeError("The Type Of Parameter Must Be Number");
   }
   return Math.trunc(y * 315576e5);
