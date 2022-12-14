@@ -1,5 +1,5 @@
 {
-  "name": "time",
+  "name": "time-package",
   "version": "1.0.0",
   "description": "Convert Time Units",
   "main": "index.js",
